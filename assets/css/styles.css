@@ -1,9 +1,5 @@
 @import url('global.css');
 
-body {
-    color: #fff;
-    background-color: #000;
-}
 .banner{   
     border-bottom: 1px solid #33A8DB;
     background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('../images/banner.png');
