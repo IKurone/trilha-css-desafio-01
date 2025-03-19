@@ -6,8 +6,7 @@ body {
 }
 .banner{   
     border-bottom: 1px solid #33A8DB;
-    background: url(../images/banner.png), linear-gradient(to top, #31a9dd1e, #00000099);
-    background-blend-mode: multiply;
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('../images/banner.png');
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,13 +47,15 @@ body {
 }
 
 .banner-content button{
-    width: 50%;
-    height: 50px;
+    padding: 19px 46px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
     border: solid, 2px;    
     color: #31A8DD;
     background-color: #00000000;
-    border-image: linear-gradient(0deg, #3BA1CD, #1572B7) 1;
+    border-image: linear-gradient(to bottom, #3BA1CD, #1572B7) 1;
     font-size: 16px;
+    font-weight: 900;
     margin-top: 10px;
     cursor: pointer;
 }
@@ -70,7 +71,7 @@ body {
     font-size: 38px;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 10px;
+    letter-spacing: 4px;
 }
 
 #course-content p{
@@ -89,8 +90,7 @@ body {
     background-color: #252525;
     border: solid 1px #33A8DB;
     text-align: center;
-    width: 100%;
-    padding: 15px;
+    padding: 16px 127px;
     border-radius: 50px;
     font-size: 16px;
     font-weight: 400;
@@ -137,7 +137,7 @@ body {
     word-wrap: break-word;
     width: 40%;
     text-align: center;
-    letter-spacing: 6px;
+    letter-spacing: 4px;
 
 }
 #professional-challenges p{
